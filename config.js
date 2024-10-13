@@ -7,8 +7,12 @@ tailwind.config = {
         orange: "#f7931e",
       },
       fontFamily: {
-        sans: ['Josefin Sans', 'sans-serif'],
-        title: ['Playfair Display SC', 'serif'],
+        sans: ["Josefin Sans", "sans-serif"],
+        title: ["Playfair Display SC", "serif"],
+      },
+      backgroundImage: {
+        mobile: "url('bg-mobile.png')",
+        desktop: "url('bg-desktop.png')",
       },
     },
   },
